@@ -65,5 +65,14 @@
       <description>Documentación del Encargo 1 sobre planimetría de la silla en fusión 360.</description>
     </item>
     
+    <item>
+      <title>Mecanizado CNC</title>
+      <link>https://vadaza.github.io/docs/mecanizado-cnc/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://vadaza.github.io/docs/mecanizado-cnc/</guid>
+      <description>Documentación del Encargo 2 sobre el mecanizado de CNC.</description>
+    </item>
+    
   </channel>
 </rss>

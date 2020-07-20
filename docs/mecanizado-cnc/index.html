@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Mecanizado CNC - Nombre Alumno</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://vadaza.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.df52c7c8fb17040fdfb216293b7a711034ee517647a54f8a626ea24f0382f02b.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentación">
+      <a href="/docs/">
+        <span>Documentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://vadaza.github.io/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://vadaza.github.io/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentación">
+      <a href="/docs/">
+        <span>Documentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Documentación</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://vadaza.github.io/docs/instalar-tema/">Instalar Tema</a>
+    </li>
+    
+    <li class="">
+      <a href="https://vadaza.github.io/docs/configuracion/">Configuración</a>
+    </li>
+    
+    <li class="">
+      <a href="https://vadaza.github.io/docs/ejemplo/">Ejemplo Shortcodes</a>
+    </li>
+    
+    <li class="">
+      <a href="https://vadaza.github.io/docs/markdown/">Ejemplos Markdown</a>
+    </li>
+    
+    <li class="">
+      <a href="https://vadaza.github.io/docs/objetivos/">Objetivos del Curso</a>
+    </li>
+    
+    <li class="">
+      <a href="https://vadaza.github.io/docs/encargo-1/">Planimetría</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://vadaza.github.io/docs/mecanizado-cnc/">Mecanizado CNC</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Mecanizado CNC</h1>
+<div class="content ">
+  <p>El mecanizado CNC (Control Numérico Computacional), es una técnica de corte en dónde una máquina trabaja en el eje x e y para realizar los dibujos y en el eje z para dar la profundidad, siendo controlada por un computador mediante números.</p>
+<p>Hay máquinas de muchos tipos y para diversos materiales, pero en este caso veremos el mecanizado sobre una plancha de terciado de madera, la cual va fijada en el router con tornillos para que no se mueva por la vibración mientras se realizan los cortes. La máquina actúa sobre ella gracias a su cabezal parecido a un taladro, el cual va recortando (no perforando).</p>
+<p>A continuación mostraré el paso a paso de como se puede mecanizar un producto en Fusion 360, específicamente el proceso de la Silla Fresia, que iniciamos el día Martes 14 de Julio en clases.</p>
+<h1 id="paso-a-paso-mecanizado-cnc">Paso a Paso Mecanizado CNC</h1>
+<h2 id="silla-fresia">Silla Fresia</h2>
+<p>En primer lugar debemos abrir en Fusion 360° el archivo correspondiente</p>
+<div>
+    <iframe 
+    src="https://alumnos2135.autodesk360.com/shares/public/SH919a0QTf3c32634dcf20de61739936498b?mode=embed" 
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+
+
+<h3 id="1-disponer-las-piezas-en-la-plancha-de-terciado">1. Disponer las piezas en la plancha de terciado</h3>
+<p>En la parte superior izquierda debemos estar en el espacio de trabajo DESIGN</p>
+<p>1.1. Definir área de trabajo:</p>
+<p>Para esto vamos a utilizar media plancha de terciado, desde la visualización TOP, seleccionamos el comando &ldquo;Create Sketch&rdquo;, desde el punto de origen y le damos las medidas de 1220mm x 1220mm. Luego extruimos esta plancha de terciado en 15mm, como un bloque de madera estándar.</p>
+<p><img src="/img/imagenesclase4/paso-1.png" alt="Imagen Simple"></p>
+<p>1.2. Copiar las piezas en la plancha:</p>
+<p>Tomamos la pieza que queremos llevar al área de trabajo, ponemos el comando &ldquo;Move Copy&rdquo;, luego en la ventana que se abre a mano derecha ponemos un check en &ldquo;Create Copy&rdquo; y la desplazamos.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//img/imagenesclase4/video-paso1-2.mp4"  type="video/mp4">
+    </video>
+</div>
+<p>1.3. Alinear las piezas con la plancha:</p>
+<p>Ponemos el comando &ldquo;Modify&rdquo;, luego &ldquo;Align&rdquo;, seleccionamos la cara del objeto que queremos que vaya para abajo en la planta y después seleccionamos el plano correspondiente a la planta. Acomodamos la pienza en la plancha con el comando &ldquo;Move&rdquo;.</p>
+<p><img src="/img/imagenesclase4/paso-4.png" alt="Imagen Simple"></p>
+<h3 id="2-para-comenzar-la-manufactura">2. Para comenzar la manufactura</h3>
+<p>En la parte superior izquierda debemos estar en el espacio de trabajo MANUFACTURE</p>
+<p>2.1. Definir máquina, orientación para fabricar y stock:</p>
+<p>Ponemos el comando &ldquo;Setup&rdquo;, en la ventana que se abre a mano derecha elegimos la máquina &ldquo;Autodesk Generic 3-axis&rdquo;.</p>
+<p><img src="/img/imagenesclase4/paso-5.png" alt="Imagen Simple"></p>
+<p>En segundo lugar en &ldquo;Operation Type&rdquo; seleccionamos la unidad en la que vamos a operar, que es &ldquo;Milling&rdquo;.</p>
+<p>Luego definimos la orientación en la que se moverá la máquina, para esto en la misma pestaña de &ldquo;Setup&rdquo; en &ldquo;Orientation&rdquo; seleccionamos &ldquo;Z axis/plane &amp; X axis&rdquo;, luego en &ldquo;Z axis&rdquo; seleccionamos la cara superior de la plancha para que el eje Z se oriente en dirección vertical, en &ldquo;X axis&rdquo; seleccionamos la arista superior frontal. Después en &ldquo;Stock Point&rdquo; ponemos &ldquo;Box Point&rdquo; para definir el punto de origen y elegimos el punto superior izquierdo.</p>
+<p>Luego, nos vamos a la pestaña siguiente para definir el &ldquo;Stock&rdquo;, en donde sice &ldquo;Mode&rdquo; seleccionamos &ldquo;From Solid&rdquo; y seleccionamos la plancha de terciado.</p>
+<p>Para finalizar volvemos a la pestaña de &ldquo;Setup&rdquo;, seleccionamos las piezas que queremos cortar en &ldquo;Model&rdquo;, para esto apagaremos la plancha para tener una mejor visualización y les haremos click.</p>
+<p>2.2. 2D Contour interior:</p>
+<p>Esta es la primera operación del mecanizado, seleccionamos el comando &ldquo;2D Contour&rdquo;, nos acercamos a la pieza y elegimos la parte inferior del calado. Despueés de esto Fusion 360° nos pedirá que elijamos la fresa que usaremos (en este caso elegiremos una sola fresa para todos los cortes), esta será  la &ldquo;Flat end mill. 6mm de diámetro&rdquo;. Veremos que en el calado aparecerán unas lineas azules que serán la trayectoria que hará la fresa.</p>
+<p><img src="/img/imagenesclase4/paso-6.png" alt="Imagen Simple"></p>
+<p>Pero acá hay un problema, una fresa de 6mm no puede calar una placa de 15mm, ya que no quedaría bien el corte y la fresa se gastaría mucho. Para esto debemos hacer click derecho sobre el &ldquo;2D Contour&rdquo; que acabamos de crear, click en &ldquo;Editar&rdquo;, luego &ldquo;Passes&rdquo;, seleccionamos &ldquo;Multiple Depths&rdquo; y en &ldquo;Maximum Roughing&rdquo; ponemos 3mm. De esta forma generamos varias líneas azules por donde pasará la fresa haciendo el calado, que sean 5 pasadas como vemos en la imagen a continuación, es muy recomendale para todos los materiales (ley que se usa: paso en el eje z sea el 50% de la fresa).</p>
+<p><img src="/img/imagenesclase4/paso-8.png" alt="Imagen Simple"></p>
+<p>Esto lo podemos simular, para esto ponemos click derecho sobre el &ldquo;2D Contour&rdquo; que hicimos, luego seleccionamos &ldquo;Simular&rdquo;, y en la ventana que se abrirá a mano derecha le damos check en &ldquo;Stock&rdquo; y en &ldquo;Transparente&rdquo; (para poder visualizar como se va haciendo el corte).</p>
+<p>2.3. 2D Pocket:</p>
+<p>Seleccionamos el comando &ldquo;2D Pocket&rdquo;, después elegimos las caras superiores.</p>
+<p><img src="/img/imagenesclase4/paso-9.png" alt="Imagen Simple"></p>
+<p>Luego en la ventana que se desplega a mano derecha en &ldquo;Passes&rdquo; seleccionamos &ldquo;Multiple Depths&rdquo; y en &ldquo;Maximum Roughing&rdquo; ponemos 3mm, para que generemos multiples trayectorias en donde pueda pasar la fresa para generar el calado.</p>
+<p><img src="/img/imagenesclase4/paso-9.2.png" alt="Imagen Simple"></p>
+<p>2.4. 2D Countour exterior:</p>
+<p>Ponemos nuevamente el comando &ldquo;2D Contour&rdquo;, pero ahore seleccionamos el área exterior de la pieza a cortar y volvemos a editar las trayectorias en la parte de &ldquo;Passes&rdquo;, donde seleccionamos &ldquo;Multiple Depths&rdquo; y en &ldquo;Maximum Roughing&rdquo; ponemos 3mm.</p>
+<p><img src="/img/imagenesclase4/paso-10.png" alt="Imagen Simple"></p>
+<p>2.5. Tabs para fijar la pieza:</p>
+<p>Este paso es muy importante, ya que si no lo realizamos la pieza que se este mecanizando puede soltarse con la vibración. Para esto iremos al &ldquo;2D Contour exterior&rdquo;, ponemos click derecho, &ldquo;Editar&rdquo;, &ldquo;Geometría&rdquo; y luego en &ldquo;Tabs&rdquo; ponemos &ldquo;Width&rdquo; de 6mm, &ldquo;Height&rdquo; de 3mm y &ldquo;Distance&rdquo; de 350mm. Estos son pedacitos de madera que no se mecanizarán para lograr la fijación de la pieza, los cuales se retirarán posteriormente.</p>
+<p><img src="/img/imagenesclase4/paso-11.png" alt="Imagen Simple"></p>
+<p><img src="/img/imagenesclase4/paso-11.2.png" alt="Imagen Simple"></p>
+<p>2.6. Simular el Setup completo:</p>
+<p>Podemos simular todos los los cortes que debe realizar la fresadora, para esto ponemos click derecho sobre &ldquo;Setups&rdquo;, ponemos &ldquo;Simular&rdquo; y luego le damos check a &ldquo;Toolpath&rdquo; y seleccionamos el modo &ldquo;Tail&rdquo;, que será el patrón de como la herramienta de corte seguirá su trayectoria.</p>
+<h3 id="los-pasos-anteriores-se-deben-aplicar-a-todas-las-piezas-que-queramos-cortar">Los pasos anteriores se deben aplicar a todas las piezas que queramos cortar.</h3>
+<p>Acá les dejo cómo lo apliqué a todas las piezas de la Silla Fresia, que se pueden mecanizar en dos dimensiones.</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.1237ff71925bb8625c97a9af8db4c54525258bedfd7c47493daaff723bea755e.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
