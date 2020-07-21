@@ -12,24 +12,6 @@
     
     
     <item>
-      <title>Instalar Tema</title>
-      <link>https://vadaza.github.io/docs/instalar-tema/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://vadaza.github.io/docs/instalar-tema/</guid>
-      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Configuración</title>
-      <link>https://vadaza.github.io/docs/configuracion/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://vadaza.github.io/docs/configuracion/</guid>
-      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
-    </item>
-    
-    <item>
       <title>Ejemplo Shortcodes</title>
       <link>https://vadaza.github.io/docs/ejemplo/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -48,30 +30,30 @@
     </item>
     
     <item>
-      <title>Objetivos del Curso</title>
-      <link>https://vadaza.github.io/docs/objetivos/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://vadaza.github.io/docs/objetivos/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
-    </item>
-    
-    <item>
-      <title>Planimetría</title>
+      <title>Encargo 1: Planimetría</title>
       <link>https://vadaza.github.io/docs/encargo-1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://vadaza.github.io/docs/encargo-1/</guid>
-      <description>Documentación del Encargo 1 sobre planimetría de la silla en fusión 360.</description>
+      <description>Documentación del Encargo 1 sobre planimetría de &lt;strong&gt;&amp;ldquo;Plywood Chair&amp;rdquo;&lt;/strong&gt; en Fusión 360°.</description>
     </item>
     
     <item>
-      <title>Mecanizado CNC</title>
+      <title>Encargo 2: Mecanizado CNC</title>
       <link>https://vadaza.github.io/docs/mecanizado-cnc/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://vadaza.github.io/docs/mecanizado-cnc/</guid>
-      <description>Documentación del Encargo 2 sobre el mecanizado de CNC.</description>
+      <description>Documentación del Encargo 2 sobre el mecanizado CNC de la &lt;strong&gt;&amp;ldquo;Silla Fresia&amp;rdquo;&lt;/strong&gt; en Fusion 360°.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vadaza.github.io/docs/configuracion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vadaza.github.io/docs/configuracion/</guid>
+      <description></description>
     </item>
     
   </channel>
