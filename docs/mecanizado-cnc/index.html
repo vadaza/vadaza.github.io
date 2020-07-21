@@ -120,7 +120,7 @@
 <h1 class="title">Encargo 2: Mecanizado CNC</h1>
 <div class="content ">
   <p>El mecanizado CNC (Control Numérico Computacional), es una técnica de corte en dónde una máquina fresadora trabaja en las tres coordenadas cartesianas, en el eje x e y para realizar dibujos y en el eje z para dar profundidad a las incisiones que se quieren realizar, siendo controlada por un computador mediante números.</p>
-<p>Hay muchos tipos de máquinas que pueden trabajar diversos materiales para poder fabricar, tales como metales, maderas, ya sean mdf, melamina como también las que se denominan nobles.</p>
+<p>Hay muchos tipos de máquinas que pueden trabajar diversos materiales para poder fabricar, tales como metales, maderas, ya sean MDF, melamina, terciado como también las que se denominan nobles.</p>
 <p>A continuación veremos el mecanizado sobre una plancha de terciado de madera. Es importante distinguir que va fijada en el router con tornillos para evitar un posible desprendimiento provocado por la vibración que se produce al momento de cortar. La máquina actúa sobre ella gracias a su cabezal parecido a un taladro, el cual va recortando (no perforando).</p>
 <p><img src="/img/imagenesclase4/fresadora2.png" alt="Imagen Simple"></p>
 <p><em>Máquina Fresadora CNC</em></p>
@@ -296,6 +296,56 @@
     height="450" 
     autoplay muted loop controls preload>
     <source src="/img//imagenesclase4/exterior.MOV"  type="video/mp4">
+    </video>
+</div>
+<h3 id="asiento-fresia">Asiento Fresia</h3>
+<p>En primer lugar debemos abrir en Fusion 360° el archivo correspondiente.</p>
+<div>
+    <iframe 
+    src="https://alumnos2135.autodesk360.com/shares/public/SH919a0QTf3c32634dcf2384f371691a9b28?mode=embed" 
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+
+
+<h4 id="1-disponer-las-piezas-en-la-plancha-de-terciado-1">1. Disponer las piezas en la plancha de terciado</h4>
+<p>En la parte superior izquierda debemos estar en el espacio de trabajo DESIGN.</p>
+<ul>
+<li>Hacemos lo mismo que en el paso <em>1.1.</em> anteriormente explicado para la <strong>Silla Fresia</strong>. Con la diferencia que esta plancha la extruiremos 9mm.</li>
+</ul>
+<p><img src="/img/imagenesclase4/1planchaasiento.png" alt="Imagen Simple"></p>
+<h4 id="2-para-comenzar-la-manufactura-1">2. Para comenzar la manufactura</h4>
+<p>En la parte superior izquierda debemos estar en el espacio de trabajo MANUFACTURE.</p>
+<ul>
+<li>
+<p>A continuación, definimos la máquina, la orientación para fabricar y el stock. Tal como lo indica el punto <em>2.1.</em> de la <strong>Silla Fresia</strong>.</p>
+</li>
+<li>
+<p>Luego, aplicamos el comando <em>&ldquo;2D Contour&rdquo;</em> para hacer el corte del asiento. En este paso también debemos llevar a cabo los cambios corresponientes  en la ventana que se despliega a mano derecha. En la pestaña <em>&ldquo;Passes&rdquo;</em> seleccionamos <em>&ldquo;Multiple Depths&rdquo;</em> y ponemos 3mm en <em>&ldquo;Maximum Roughing&rdquo;</em>.</p>
+</li>
+</ul>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//imagenesclase4/asientoexterior.mov"  type="video/mp4">
+    </video>
+</div>
+<ul>
+<li>Para finalizar, seleccionamos un nuevo comando llamado <em>&ldquo;Trace&rdquo;</em>, el cual nos permitirá seleccionar todas las líneas que tiene la pieza del asiento en su superficie. Para luego en la pestaña <em>&ldquo;Passes&rdquo;</em> indicar 4,5mm en <em>&ldquo;Stock Toleave&rdquo;</em>. Esta indicación es para que la fresa pase por los vectores indicados y obtengamos una madera flexible.</li>
+</ul>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//imagenesclase4/trace.mov"  type="video/mp4">
     </video>
 </div>
 <p><a href="#top">[Volver Arriba]</a></p>
