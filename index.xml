@@ -31,10 +31,10 @@
     
     <item>
       <title>Encargo 1: Planimetría</title>
-      <link>https://vadaza.github.io/docs/encargo-1/</link>
+      <link>https://vadaza.github.io/docs/planimetr%C3%ADas/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://vadaza.github.io/docs/encargo-1/</guid>
+      <guid>https://vadaza.github.io/docs/planimetr%C3%ADas/</guid>
       <description>Documentación del Encargo 1 sobre planimetría de &lt;strong&gt;&amp;ldquo;Plywood Chair&amp;rdquo;&lt;/strong&gt; en Fusión 360°.</description>
     </item>
     
@@ -45,6 +45,15 @@
       
       <guid>https://vadaza.github.io/docs/mecanizado-cnc/</guid>
       <description>Documentación del Encargo 2 sobre el mecanizado CNC de la &lt;strong&gt;&amp;ldquo;Silla Fresia&amp;rdquo;&lt;/strong&gt; en Fusion 360°.</description>
+    </item>
+    
+    <item>
+      <title>Encargo 3: Mecanizado 2,5 D</title>
+      <link>https://vadaza.github.io/docs/mecanizado-2.5/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://vadaza.github.io/docs/mecanizado-2.5/</guid>
+      <description>Documentación del Encargo 3 sobre el Mecanizado CNC en 2,5 dimensiones de la &lt;strong&gt;&amp;ldquo;Silla Fresia&amp;rdquo;&lt;/strong&gt; en Fusión 360°.</description>
     </item>
     
     <item>
