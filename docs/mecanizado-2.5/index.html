@@ -190,16 +190,34 @@ En primer lugar debemos presionar el comando en la barra superior.</p>
 <p>Continuando con el proceso de desvaste, iremos a la pestaña <em>&ldquo;Geometry&rdquo;</em> en la ventana que está a mano derecha en donde seleccionaremos el sketch hecho en el paso <em>2.3.</em> en <em>&ldquo;Machine Boundary&rdquo;</em> y el respaldo en <em>&ldquo;Model&rdquo;</em>.</p>
 <p><img src="/img/imagenesclase5/paso6.png" alt="Imagen Simple"></p>
 <p><img src="/img/imagenesclase5/paso6.2.png" alt="Imagen Simple"></p>
-<p>Las líneas azules que vemos son todas las trayectorías por dónde pasará la fresa y removerá toda esa madera de manera bruta, sin una terminación prolija. En la simulación a continuación veremos que la fresadora entra en el material desde el centro haciendo una elipse, esto sirve para disminuir el estrés de la máquina. Lo cual se usa mucho para metales y también funciona de manera adecuada en maderas.</p>
+<p>Las líneas azules que vemos son todas las trayectorías por dónde pasará la fresa y removerá toda esa madera de manera bruta, sin una terminación prolija. En la simulación a continuación veremos que la fresadora entra en el material desde el centro haciendo una elipse, esto sirve para disminuir el estrés de la máquina. Lo cual se usa mucho para metales y también funciona de manera adecuada en maderas.
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//imagenesclase5/clearing1.mov"  type="video/mp4">
+    </video>
+</div></p>
 <h6 id="33-parallel">3.3. Parallel:</h6>
-<p>Esta función sirve para darle una terminación paralela y continua al calado. En la pestaña que se despliega a mano derecha, en la pestaña <em>&ldquo;Tool&rdquo;</em> y <em>&ldquo;Geometry&rdquo;</em> hacemos lo mismo que en el paso anterior.</p>
+<p>Esta función sirve para darle una terminación paralela y continua al calado. En la pestaña que se despliega a mano derecha, en la pestaña <em>&ldquo;Tool&rdquo;</em> haremos un cambio respecto al paso anterior y seleccionaremos la fresa de punta redonda llamada <em>&ldquo;Ball end mill. 6mm de diámetro&rdquo;</em> la cual modificaremos de la misma forma que la vez anterior en <em>Tool Library&rdquo;</em> para que tenga un largo de 40mm.</p>
+<p><img src="/img/imagenesclase5/paso16.png" alt="Imagen Simple"></p>
+<p>Para finalizar en <em>&ldquo;Geometry&rdquo;</em> haremos lo mismo que en el paso _3.2.__.</p>
 <p><img src="/img/imagenesclase5/paso7.png" alt="Imagen Simple"></p>
 <p><img src="/img/imagenesclase5/paso7.2.png" alt="Imagen Simple"></p>
 <p>También debemos hacer las trayectorias azules que vemos a lo largo del respaldo en el eje Y para obtener una correcta terminación. Para esto hacemos click derecho sobre el comando <em>&ldquo;Parallel&rdquo;</em> que acabamos de realizar, lo duplicamos y lo editamos en la pestaña <em>&ldquo;Passes&rdquo;</em>, específicamente en <em>&ldquo;Pass Direction&rdquo;</em> escribimos 90° y 2mm en <em>&ldquo;Step Over&rdquo;</em> (mientras menos milímetros mejor resolución).</p>
 <p><img src="/img/imagenesclase5/paso8.png" alt="Imagen Simple"></p>
-<p>Es importante considerar que debemos simular el calado de los <em>&ldquo;Passes&rdquo;</em> del eje X e Y al mismo tiempo.
-<img src="/img/imagenesclase5/paso8.2.png" alt="Imagen Simple"></p>
-<p>Después de que finalizamos el proceso de desbaste y las trayectorias de terminación del lado frontal del respaldo, debemos hacer el mismo procedimiento pero para la parte trasera y para los lados de esta pieza. Para esto debemos volver a <strong>repetir pasos anteriores</strong> los cuales indicaré a continuación.</p>
+<p>Es importante considerar que tenemos que simular el calado de los <em>&ldquo;Passes&rdquo;</em> del eje X e Y al mismo tiempo.
+<img src="/img/imagenesclase5/paso8.2.png" alt="Imagen Simple">
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//imagenesclase5/simulacionentera1.mov"  type="video/mp4">
+    </video>
+</div>
+Después de que finalizamos el proceso de desbaste y las trayectorias de terminación del lado frontal del respaldo, debemos hacer el mismo procedimiento pero para la parte trasera y para los lados de esta pieza. Para esto debemos volver a <strong>repetir pasos anteriores</strong>, los cuales indicaré a continuación.</p>
 <p><img src="/img/imagenesclase5/respaldo3.jpg" alt="Imagen Simple"></p>
 <h4 id="2-establecer-área-de-trabajo-1">2. Establecer área de trabajo</h4>
 <p>Volvemos a trabajar al espacio de trabajo DESIGN y repetimos el paso <em>2.1</em> para orientar la pieza.</p>
@@ -209,27 +227,43 @@ En primer lugar debemos presionar el comando en la barra superior.</p>
 <h4 id="3-para-comenzar-la-manufactura-1">3. Para comenzar la manufactura</h4>
 <p>Nos movemos al espacio de trabajo MANUFACTURE.</p>
 <p>Posteriormente realizamos el paso <em>3.1.</em> que nos sirve para definir la máquina, la orientación para fabricar y el stock. Luego debemos aplicar el paso <em>3.2.</em> de <em>&ldquo;Adaptative Clearing&rdquo;</em> en dónde nos debemos percatar de continuar usando la fresa editada.</p>
-<p><img src="/img/imagenesclase5/paso12.png" alt="Imagen Simple"></p>
-<p><img src="/img/imagenesclase5/respaldo1.jpg" alt="Imagen Simple"></p>
+<p><img src="/img/imagenesclase5/paso12.png" alt="Imagen Simple">
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//imagenesclase5/clearing2.mov"  type="video/mp4">
+    </video>
+</div>
+<img src="/img/imagenesclase5/respaldo1.jpg" alt="Imagen Simple"></p>
 <p>Por último aplicamos la función <em>3.3.</em> <em>&ldquo;Parallel&rdquo;</em> en el eje X e Y.</p>
+<p><em>(en la simulación hay que realizar los tres pasos juntos)</em></p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//imagenesclase5/simulacioncompleta2.mov"  type="video/mp4">
+    </video>
+</div>
 <p><img src="/img/imagenesclase5/paso13.png" alt="Imagen Simple"></p>
 <p><img src="/img/imagenesclase5/respaldo2.jpg" alt="Imagen Simple"></p>
-<p>Nuevamente una vez que terminamos de mecanizar la parte trasera del respaldo, necesitamos llevar este mismo proceso a los laterales de la  figura. Para llevarlo a cabo volveremos a <strong>repetir los siguientes pasos anteriores</strong>:</p>
-<h4 id="2-establecer-área-de-trabajo-2">2. Establecer área de trabajo</h4>
-<p>Volvemos a trabajar al espacio de trabajo DESIGN y repetimos el paso <em>2.1</em> para orientar la pieza.</p>
-<p><img src="/img/imagenesclase5/paso14.png" alt="Imagen Simple"></p>
-<p>Luego hacemos el paso <em>2.3</em> en el cual delimitamos el área de desplazamiento de la fresa a través de un sketch.</p>
-<p><img src="/img/imagenesclase5/paso14.2.png" alt="Imagen Simple"></p>
-<h4 id="3-para-comenzar-la-manufactura-2">3. Para comenzar la manufactura</h4>
-<p>Volvemos al espacio de trabajo MANUFACTURE.</p>
-<p>Posteriormente realizamos el paso <em>3.1.</em> en el cual modificaremos la fresa a una de punta redonda llamada <em>&ldquo;Ball end mill. 6mm de diámetro&rdquo;</em> la cual modificaremos de la misma forma que la vez anterior.</p>
-<p><img src="/img/imagenesclase5/paso16.png" alt="Imagen Simple"></p>
-<p>Luego debemos aplicar el paso <em>3.2.</em> de <em>&ldquo;Adaptative Clearing&rdquo;</em>.</p>
-<p>IMAGEN</p>
-<p>Por último aplicamos la función <em>3.3.</em> <em>&ldquo;Parallel&rdquo;</em> en el eje X e Y.</p>
-<p>IMAGEN</p>
-<p>Debemos repetir exactamente lo mismo en ambos lados del respaldo.</p>
+<h4 id="4-para-finalizar">4. Para finalizar</h4>
+<p>La terminación del respaldo se hace fuera de la máquina CNC, se deben lijar y pulir todos los lados de la pieza.</p>
+<p><img src="/img/imagenesclase5/pulido.jpg" alt="Imagen Simple"></p>
 <p><img src="/img/imagenesclase5/respaldo4.jpg" alt="Imagen Simple"></p>
+<p>Y luego se hay que unir con la técnica de ensamblaje todas las partes de la <strong>Silla Fresia</strong>.</p>
+<p><img src="/img/imagenesclase5/ensamblaje1.jpg" alt="Imagen Simple"></p>
+<p><img src="/img/imagenesclase5/ensamblaje2.jpg" alt="Imagen Simple"></p>
+<p>Reforzando el anclaje y uniendo las piezas que mecanizamos en el post anterior, prensándolas con pegamento.</p>
+<p><img src="/img/imagenesclase5/prensado0.jpg" alt="Imagen Simple"></p>
+<p><img src="/img/imagenesclase5/prensado1.jpg" alt="Imagen Simple"></p>
+<p><img src="/img/imagenesclase5/prensado2.jpg" alt="Imagen Simple"></p>
+<p>Finalmente el modelo de la <strong>Silla Fresia</strong> queda así.</p>
+<p><img src="/img/imagenesclase5/final.jpg" alt="Imagen Simple"></p>
+<p><img src="/img/imagenesclase5/final2.jpg" alt="Imagen Simple"></p>
+<p><a href="#top">[Volver Arriba]</a></p>
 
 </div>
 </div>
